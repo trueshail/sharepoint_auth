@@ -35,12 +35,11 @@ class Sharepointauth {
   Future<String> getAccessToken() async {
     if (!Token.tokenIsValid(_token))
       await _performAuthorization();
-    else
-      print('Valid Token already exits');
     return _token.accessToken;
   }
 
   bool tokenIsValid() {
+    // check their is existing token and is valid
     return Token.tokenIsValid(_token);
   }
 
@@ -54,13 +53,14 @@ class Sharepointauth {
       } catch (e) {
         rethrow;
       }
-    } else {} //save token to cache
+    } 
+     //save token to cache
     await _tokenStorage.saveTokenToCache(_token);
   }
 
   Future<void> _performFullAuthFlow() async {
     try {
-      //_token = await getSharepointToken();
+      // Retrieve the access the token
       _token = await _requestToken.requestToken();
     } catch (e) {
       rethrow;

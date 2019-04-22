@@ -27,7 +27,6 @@ class RequestToken {
     // print('Expires On : ' + tokenJson["expires_on"]);
     // print('Resource : ' + tokenJson["resource"]);
     // print('Access Token : ' + tokenJson["access_token"]);
-
     Token token = new Token.fromJson(tokenJson);
 
     return token;

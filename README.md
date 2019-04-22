@@ -38,6 +38,8 @@ You can also call `getAccessToken()` directly. It will automatically login and r
 
 Tokens are cached in memory. to destroy the tokens you can call `logout()`:
 
+Tokens have expire offset of `1800 secs`:
+
 ```dart
 await sharepointauth.logout();
 ```
@@ -48,7 +50,7 @@ Add the following to your pubspec.yaml dependencies:
 
 ```yaml
 dependencies:
-  sharepoint_auth: "^0.0.1"
+  sharepoint_auth: "^0.0.2"
 ```
 
 
