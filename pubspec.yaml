@@ -1,8 +1,8 @@
 name: sharepoint_auth
 description: Get sharepoint access token package to access sharepoint rest api
 version: 0.0.1
-author: Shail Patel<https://github.com/luv4ever2shail>
-homepage:
+author: Shail Patel
+homepage: https://github.com/luv4ever2shail/sharepoint_auth
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -10,13 +10,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
   http: ^0.12.0+2
   flutter_secure_storage: ^3.2.1+1
   shared_preferences: ^0.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter  
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
