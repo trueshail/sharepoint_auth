@@ -33,8 +33,7 @@ class Sharepointauth {
   }
 
   Future<String> getAccessToken() async {
-    if (!Token.tokenIsValid(_token))
-      await _performAuthorization();
+    if (!Token.tokenIsValid(_token)) await _performAuthorization();
     return _token.accessToken;
   }
 
@@ -53,8 +52,8 @@ class Sharepointauth {
       } catch (e) {
         rethrow;
       }
-    } 
-     //save token to cache
+    }
+    //save token to cache
     await _tokenStorage.saveTokenToCache(_token);
   }
 
