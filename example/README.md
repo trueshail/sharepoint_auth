@@ -2,7 +2,6 @@
 
 Get sharepoint access token package to access SHAREPOINT REST API.
 
-
 For using this library you have to create an azure app at the [Azure App registration portal](https://apps.dev.microsoft.com/). Use native app as plattform type.
 
 Register App on Sharepoint Site by using : https://YourDomainName.SharePoint.com/sites/YourSiteName/_layouts/15/appregnew.aspx
@@ -44,12 +43,10 @@ Add the following to your pubspec.yaml dependencies:
 
 ```yaml
 dependencies:
-  sharepoint_auth: "^0.0.2"
+  sharepoint_auth: "^0.1.0"
 ```
-
 
 ## Questions?🤔
 
 Hit me on twitter [![Twitter URL](https://img.shields.io/twitter/follow/luv4ever2shail.svg?style=social)](https://twitter.com/luv4ever2shail)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ShailPatel-blue.svg)](https://www.linkedin.com/in/shailkumarpatel/)
-

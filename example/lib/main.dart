@@ -36,13 +36,13 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   static final SharepointConfig config = new SharepointConfig(
-      "Sharepoint Client Id",
-      "Sharepoint Client Secret",
-      "Sharepoint Resource",
-      "Sharepoint Site",
-      "Your Tenant Id",);
+    "Sharepoint Client Id",
+    "Sharepoint Client Secret",
+    "Sharepoint Resource",
+    "Sharepoint Site",
+    "Your Tenant Id",
+  );
 
   final Sharepointauth sharepointauth = Sharepointauth(config);
 

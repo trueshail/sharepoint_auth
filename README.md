@@ -2,10 +2,9 @@
 
 Get sharepoint access token package to access SHAREPOINT REST API.
 
-
 # Sharepoint Access Token
 
-A Flutter sharepoint_auth package for performing authentication to retrieve access token for accessing SHAREPOINT REST API by using OAuth2 v2.0 endpoint. Forked from [Earlybyte.aad_oauth](https://github.com/Earlybyte/aad_oauth).
+A Flutter sharepoint_auth package for performing authentication to retrieve access token for accessing SHAREPOINT REST API by using OAuth2 v2.0 endpoint. Forked from [Earlybyte.aad_oauth](https://github.com/Earlybyte/aad_oauth) AAD Package.
 
 ## Usage❔
 
@@ -50,9 +49,8 @@ Add the following to your pubspec.yaml dependencies:
 
 ```yaml
 dependencies:
-  sharepoint_auth: "^0.0.2"
+  sharepoint_auth: "^0.1.0"
 ```
-
 
 ## 👨 Created & Maintained By
 
@@ -68,10 +66,10 @@ The source code is **100% Dart**, and everything resides in the [/lib](https://g
 
 ## Show some :heart: and star the repo to support the project
 
- [![GitHub followers](https://img.shields.io/github/followers/luv4ever2shail.svg?style=social&label=Follow)](https://github.com/luv4ever2shail)[![GitHub stars](https://img.shields.io/github/stars/luv4ever2shail/sharepoint_auth.svg?style=social&label=Star)](https://github.com/luv4ever2shail/sharepoint_auth) [![GitHub forks](https://img.shields.io/github/forks/luv4ever2shail/sharepoint_auth.svg?style=social&label=Fork)](https://github.com/luv4ever2shail/sharepoint_auth/fork) [![GitHub watchers](https://img.shields.io/github/watchers/luv4ever2shail/sharepoint_auth.svg?style=social&label=Watch)](https://github.com/luv4ever2shail/sharepoint_auth) 
- [![Twitter Follow](https://img.shields.io/twitter/follow/luv4ever2shail.svg?style=social)](https://twitter.com/luv4ever2shail)
+[![GitHub followers](https://img.shields.io/github/followers/luv4ever2shail.svg?style=social&label=Follow)](https://github.com/luv4ever2shail)[![GitHub stars](https://img.shields.io/github/stars/luv4ever2shail/sharepoint_auth.svg?style=social&label=Star)](https://github.com/luv4ever2shail/sharepoint_auth) [![GitHub forks](https://img.shields.io/github/forks/luv4ever2shail/sharepoint_auth.svg?style=social&label=Fork)](https://github.com/luv4ever2shail/sharepoint_auth/fork) [![GitHub watchers](https://img.shields.io/github/watchers/luv4ever2shail/sharepoint_auth.svg?style=social&label=Watch)](https://github.com/luv4ever2shail/sharepoint_auth)
+[![Twitter Follow](https://img.shields.io/twitter/follow/luv4ever2shail.svg?style=social)](https://twitter.com/luv4ever2shail)
 
- [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/Apache-2.0) [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/luv4ever2shail/sharepoint_auth/blob/master/LICENSE)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/Apache-2.0) [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/luv4ever2shail/sharepoint_auth/blob/master/LICENSE)
 
 ### :heart: Found this project useful?
 
@@ -87,19 +85,19 @@ If you found this project useful, then please consider giving it a :star: on Git
 
 # 📃 License
 
-  Copyright 2019 Shail Patel
+Copyright 2019 Shail Patel
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
        http://www.apache.org/licenses/LICENSE-2.0
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 ## Questions?🤔
 

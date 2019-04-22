@@ -9,8 +9,8 @@ void main() {
       "Sharepoint Client Secret",
       "Sharepoint Resource",
       "Sharepoint Site",
-      "Your Tenant Id",);
+      "Your Tenant Id",
+    );
     final Sharepointauth sharepointauth = new Sharepointauth(config);
-    
   });
 }
