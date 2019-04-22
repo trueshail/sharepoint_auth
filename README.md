@@ -11,7 +11,7 @@ A Flutter sharepoint_auth package for performing authentication to retrieve acce
 
 For using this library you have to create an azure app at the [Azure App registration portal](https://apps.dev.microsoft.com/). Use native app as plattform type (with callback URL: https://login.live.com/oauth20_desktop.srf).
 
-Register App on Sharepoint Site by using : https://<domain>.SharePoint.com/sites/<sitename>/_layouts/15/appregnew.aspx
+Register App on Sharepoint Site by using : https://domain.SharePoint.com/sites/sitename/_layouts/15/appregnew.aspx
 
 Afterwards you have to initialize the library as follow:
 
