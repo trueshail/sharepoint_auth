@@ -1,6 +1,6 @@
 name: sharepoint_auth
 description: Get sharepoint access token package to access sharepoint rest api
-version: 0.0.2
+version: 0.0.3
 author: Shail Patel <luv4ever2shail@gmail.com>
 homepage: https://github.com/luv4ever2shail/sharepoint_auth
 

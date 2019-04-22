@@ -56,18 +56,13 @@ dependencies:
 
 ## 👨 Created & Maintained By
 
-```
 [Shail Patel](https://github.com/luv4ever2shail)
-```
+
 > If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
 >
 > - [PayPal](https://www.paypal.me/luv4ever2shail/)
 
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/luv4ever2shail)
-
-
-<a href="https://twitter.com/luv4ever2shail"><img src="https://user-images.githubusercontent.com/35039342/55471524-8e24cb00-5627-11e9-9389-58f3d4419153.png" width="60"></a>
-<a href="https://www.linkedin.com/in/shailkumarpatel/"><img src="https://user-images.githubusercontent.com/35039342/55471530-94b34280-5627-11e9-8c0e-6fe86a8406d6.png" width="60"></a>
 
 The source code is **100% Dart**, and everything resides in the [/lib](https://github.com/luv4ever2shail/sharepoint_auth/tree/master/lib) folder.
 
