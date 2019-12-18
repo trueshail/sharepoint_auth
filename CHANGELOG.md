@@ -1,3 +1,11 @@
+## [0.1.2] - 2019/12/18
+
+* Updated Packages to support flutter 1.2
+
+## [0.1.1] - 2019/11/28
+
+* Updated Packages
+
 ## [0.1.0] - 2019/04/22
 
 * Bug fixes
