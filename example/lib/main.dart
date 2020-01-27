@@ -63,15 +63,15 @@ class _MyHomePageState extends State<MyHomePage> {
             ListTile(
               leading: Icon(Icons.launch),
               title: Text('Login/Get Access Token'),
-              onTap: () {
-                login();
+              onTap: () async {
+                await login();
               },
             ),
             ListTile(
               leading: Icon(Icons.delete),
               title: Text('Logout/Remove Token'),
-              onTap: () {
-                logout();
+              onTap: () async {
+                await logout();
               },
             ),
           ],
@@ -95,7 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
     showDialog(context: context, builder: (BuildContext context) => alert);
   }
 
-  void login() async {
+  Future<void> login() async {
     try {
       await sharepointauth.login();
       String accessToken = await sharepointauth.getAccessToken();
@@ -105,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
     }
   }
 
-  void logout() async {
+  Future<void> logout() async {
     await sharepointauth.logout();
     showMessage("Logged out. Token Removed.");
   }
